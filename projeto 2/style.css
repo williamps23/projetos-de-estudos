@@ -1,0 +1,39 @@
+body{
+    background-color: darkgray;
+    display: flex;
+}
+div{
+    background-color: rgb(52, 52, 52);
+    padding: 40px 4%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+}
+h1{
+    color: white;
+    font-size: 38px;
+}
+input{
+    border-radius: 4%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+button{
+    padding: 15px;
+    background-color: mediumblue;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+button:hover{
+    background-color: rgb(66, 167, 230);
+}
